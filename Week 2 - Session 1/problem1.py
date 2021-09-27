@@ -13,7 +13,8 @@ Your function should return:
 
 """
 def alphabetical_stocks(stock_ticker):
-  pass
+  elems = stock_ticker.split(" ")
+  return elems
     
 
 def run_tests():
